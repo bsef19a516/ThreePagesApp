@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/unnamed"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="
+Faculty of Computing and Information Technology (FCIT) was established in January, 2021. The unprecedented growth of Computer and Information Technology sector, both nationally and internationally, provided the impetus for the establishment of four distinct departments under the umbrella of FCIT; namely Department of Computer Science, Department of Software Engineering, Department of Information Technology and Department of Data Science. Prior to the establishment of FCIT, PUCIT was placed under the Faculty of Science. Given the significance and impact of computing, the establishment of an independent computing faculty became the need of the hour.\n
+In the year 1988, the Center for Computer Science was established in the Center for Solid State Physics, Quaid-e-Azam Campus, Lahore. In a short span of three years that is on September 10, 1991 the Center was upgraded to Department of Computer Science and was made part of Faculty of Engineering and Technology on September 18, 1991. Later the department was made a part of Faculty of Science in October, 2000. On November 11, 2000, the Department of Computer Science was upgraded to a Constituent College and was named Punjab University College of Information Technology (PUCIT). Furthermore, the GIS Center became a part of PUCIT on September 8, 2004 but later started working in an independent capacity from October 31, 2014.\n\nThe first degree program offered by the Center for Computer Science was a one-year Post Graduate Diploma (PGD) in Computer Science. 24 students were registered in this program during the first year. Whereas, after the establishment of the Department of Computer Science a 2-year Post Graduate Diploma (PGD) leading to MSc in Computer Science was offered. The College also launched a 4-year BSc (Honors) in Computer Science program in November 2000. The classes of the new program started in January 2001 with 180 students. The PGD leading to MSc in Computer Science was converted to MSc in Computer Science in February 2001. The College launched 4-year Bachelor of Science in Information Technology (BIT), 2-year Master in Information Technology (MIT), Master in Electronic Commerce (M. E-Com), and 3-year MPhil leading to PhD in Computer Science in 2003. MS/MPhil Computer Science and MSc GIS programs were launched in 2006 and BS Software Engineering in 2007.
+
+
+
+Apart from offering various academic programs PUCIT also established its own Internet Service Provider (ISP) and a software house, Agile Technologies, for automating key business processes in the College and bridging the gap between industry and academia.\n\n"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
